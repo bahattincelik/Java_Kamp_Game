@@ -1,5 +1,8 @@
 package interfaces;
 
-public interface ValidationService {
+import entities.Player;
 
+public interface ValidationService {
+	
+	String confirm (Player player);
 }
